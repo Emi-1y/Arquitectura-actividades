@@ -1054,6 +1054,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v12.51.0",
             "source": {
                 "type": "git",
@@ -1064,6 +1065,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/ce4de3feb211e47c4f959d309ccf8a2733b1bc16",
                 "reference": "ce4de3feb211e47c4f959d309ccf8a2733b1bc16",
+=======
+            "version": "v12.52.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "d5511fa74f4608dbb99864198b1954042aa8d5a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/d5511fa74f4608dbb99864198b1954042aa8d5a7",
+                "reference": "d5511fa74f4608dbb99864198b1954042aa8d5a7",
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
                 "shasum": ""
             },
             "require": {
@@ -1272,7 +1285,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2026-02-10T18:20:19+00:00"
+=======
+            "time": "2026-02-17T17:07:04+00:00"
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
         },
         {
             "name": "laravel/prompts",
@@ -2294,6 +2311,7 @@
         },
         {
             "name": "nette/utils",
+<<<<<<< HEAD
             "version": "v4.1.2",
             "source": {
                 "type": "git",
@@ -2304,6 +2322,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/utils/zipball/f76b5dc3d6c6d3043c8d937df2698515b99cbaf5",
                 "reference": "f76b5dc3d6c6d3043c8d937df2698515b99cbaf5",
+=======
+            "version": "v4.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/utils.git",
+                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/utils/zipball/bb3ea637e3d131d72acc033cfc2746ee893349fe",
+                "reference": "bb3ea637e3d131d72acc033cfc2746ee893349fe",
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
                 "shasum": ""
             },
             "require": {
@@ -2315,8 +2345,15 @@
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "^1.2",
+<<<<<<< HEAD
                 "nette/tester": "^2.5",
                 "phpstan/phpstan": "^2.0@stable",
+=======
+                "nette/phpstan-rules": "^1.0",
+                "nette/tester": "^2.5",
+                "phpstan/extension-installer": "^1.4@stable",
+                "phpstan/phpstan": "^2.1@stable",
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
                 "tracy/tracy": "^2.9"
             },
             "suggest": {
@@ -2377,9 +2414,15 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/nette/utils/tree/v4.1.2"
             },
             "time": "2026-02-03T17:21:09+00:00"
+=======
+                "source": "https://github.com/nette/utils/tree/v4.1.3"
+            },
+            "time": "2026-02-13T03:05:33+00:00"
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
         },
         {
             "name": "nikic/php-parser",
@@ -2441,6 +2484,7 @@
         },
         {
             "name": "nunomaduro/termwind",
+<<<<<<< HEAD
             "version": "v2.3.3",
             "source": {
                 "type": "git",
@@ -2451,11 +2495,24 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/6fb2a640ff502caace8e05fd7be3b503a7e1c017",
                 "reference": "6fb2a640ff502caace8e05fd7be3b503a7e1c017",
+=======
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/termwind.git",
+                "reference": "712a31b768f5daea284c2169a7d227031001b9a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/712a31b768f5daea284c2169a7d227031001b9a8",
+                "reference": "712a31b768f5daea284c2169a7d227031001b9a8",
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": "^8.2",
+<<<<<<< HEAD
                 "symfony/console": "^7.3.6"
             },
             "require-dev": {
@@ -2466,6 +2523,18 @@
                 "phpstan/phpstan": "^1.12.32",
                 "phpstan/phpstan-strict-rules": "^1.6.2",
                 "symfony/var-dumper": "^7.3.5",
+=======
+                "symfony/console": "^7.4.4 || ^8.0.4"
+            },
+            "require-dev": {
+                "illuminate/console": "^11.47.0",
+                "laravel/pint": "^1.27.1",
+                "mockery/mockery": "^1.6.12",
+                "pestphp/pest": "^2.36.0 || ^3.8.4 || ^4.3.2",
+                "phpstan/phpstan": "^1.12.32",
+                "phpstan/phpstan-strict-rules": "^1.6.2",
+                "symfony/var-dumper": "^7.3.5 || ^8.0.4",
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -2497,7 +2566,11 @@
                     "email": "enunomaduro@gmail.com"
                 }
             ],
+<<<<<<< HEAD
             "description": "Its like Tailwind CSS, but for the console.",
+=======
+            "description": "It's like Tailwind CSS, but for the console.",
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
             "keywords": [
                 "cli",
                 "console",
@@ -2508,7 +2581,11 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/nunomaduro/termwind/tree/v2.3.3"
+=======
+                "source": "https://github.com/nunomaduro/termwind/tree/v2.4.0"
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
             },
             "funding": [
                 {
@@ -2524,7 +2601,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-11-20T02:34:59+00:00"
+=======
+            "time": "2026-02-16T23:10:27+00:00"
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
         },
         {
             "name": "phpoption/phpoption",
@@ -6546,6 +6627,7 @@
         },
         {
             "name": "nunomaduro/collision",
+<<<<<<< HEAD
             "version": "v8.8.3",
             "source": {
                 "type": "git",
@@ -6579,6 +6661,38 @@
                 "orchestra/testbench-core": "^9.12.0 || ^10.4",
                 "pestphp/pest": "^3.8.2 || ^4.0.0",
                 "sebastian/environment": "^7.2.1 || ^8.0"
+=======
+            "version": "v8.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/collision.git",
+                "reference": "a1ed3fa530fd60bc515f9303e8520fcb7d4bd935"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/a1ed3fa530fd60bc515f9303e8520fcb7d4bd935",
+                "reference": "a1ed3fa530fd60bc515f9303e8520fcb7d4bd935",
+                "shasum": ""
+            },
+            "require": {
+                "filp/whoops": "^2.18.4",
+                "nunomaduro/termwind": "^2.4.0",
+                "php": "^8.2.0",
+                "symfony/console": "^7.4.4 || ^8.0.4"
+            },
+            "conflict": {
+                "laravel/framework": "<11.48.0 || >=14.0.0",
+                "phpunit/phpunit": "<11.5.50 || >=14.0.0"
+            },
+            "require-dev": {
+                "brianium/paratest": "^7.8.5",
+                "larastan/larastan": "^3.9.2",
+                "laravel/framework": "^11.48.0 || ^12.52.0",
+                "laravel/pint": "^1.27.1",
+                "orchestra/testbench-core": "^9.12.0 || ^10.9.0",
+                "pestphp/pest": "^3.8.5 || ^4.4.1 || ^5.0.0",
+                "sebastian/environment": "^7.2.1 || ^8.0.3 || ^9.0.0"
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
             },
             "type": "library",
             "extra": {
@@ -6641,7 +6755,11 @@
                     "type": "patreon"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-11-20T02:55:25+00:00"
+=======
+            "time": "2026-02-17T17:33:08+00:00"
+>>>>>>> 4af142184d20c2b8ba5393dd29b66ae81be58c8f
         },
         {
             "name": "phar-io/manifest",
